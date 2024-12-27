@@ -1,7 +1,7 @@
 import { FaUserCircle } from "react-icons/fa"
 // import { peopleToFollows } from "./PeopleToFollow"
-interface UserCardProp{
-    index:number,
+ export interface UserCardProp{
+    key:number;
     person:{
       name:string;
       following:boolean;
