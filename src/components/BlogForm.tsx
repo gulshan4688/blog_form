@@ -26,6 +26,7 @@ const BlogForm: React.FC<BlogFromProps> = ({ existingBlog, onclose }) => {
 
   const handleSubmit = () => {
     const blog: Blog = {
+      
       id: existingBlog ? existingBlog.id : Date.now(),
       title, description, time, image,
     }

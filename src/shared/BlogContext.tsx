@@ -1,7 +1,6 @@
 import { Blog } from "../Types";
 import { createContext, useState, useContext, ReactNode } from "react"
  export interface BlogContextType {
-    index:number;
     blogs: Blog[];
     addBlog: (blog: Blog) => void;
     updateBlog: (blog: Blog) => void;
